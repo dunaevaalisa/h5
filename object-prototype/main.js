@@ -35,13 +35,13 @@ function initCalculateStatement() {
 }
 
 function getAverageMark(marks) {
-        let sum = 0;
-      let total = 0;
-for(let i = 0; i < marks.length; i++) {
+  let sum = 0;
+  let total = 0;
+  for(let i = 0; i < marks.length; i++) {
     total += marks[i];
 }
- let average = total / marks.length;
- let roundedAverage = Math.round(2.6);
-    console.log(roundedAverage);
+  let average = total / marks.length;
+  let roundedAverage = Math.round(average);
+  console.log(roundedAverage);
   return roundedAverage;
 }
